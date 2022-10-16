@@ -5,13 +5,15 @@ html {
 }
 
 body {
-    background: #303947;
-    color: #fff;
+    background: #272d37;
+    color: #e5e5e5;
     display: flex;
     flex-direction: column;
+    font-size: 1.125rem;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     text-align: center;
+    margin: 0;
 
     * {
         line-height: 0;
@@ -36,6 +38,11 @@ footer {
 // Header
 header {
     margin-top: 10vw;
+}
+
+// Footer
+footer {
+    margin-bottom: 2rem;
 }
 
 // Lists
@@ -98,12 +105,12 @@ img {
 @media(min-width: 600px) {
     // main
     main {
-        font-size: 1.25rem;
+        font-size: 1.375rem;
         line-height: 2.25rem;
     }
 
     // Footer
     footer {
-        font-size: 1.125rem;
+        font-size: 1.25rem;
     }
 }
